@@ -3,8 +3,8 @@ using System;
 class Program {
   public static void Main (string[] args) {
     const double BaseRate = 200;
-    double hourlyRate = 150;
-    double dollarPerMile = 2;
+    const double hourlyRate = 150;
+    const double dollarPerMile = 2;
 
     Console.WriteLine("Welcome to Malcom Movers! Please enter how many hours your move will take:");
     double totalHours = Convert.ToDouble(Console.ReadLine());
